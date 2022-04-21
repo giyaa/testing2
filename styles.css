@@ -1,0 +1,310 @@
+/* ------ TITLE SECTION ------- */
+#title {
+  background: linear-gradient(rgba(152,251,152,.2), rgba(0,255,127,.2)), url("https://images.unsplash.com/photo-1603575449096-da705f622102?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwdXNpbmclMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* -------- NAVIGATION BAR ---------- */
+.navbar-brand {
+  font-family: 'Bree Serif', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 1.5rem
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* ----- DOWNLOAD BUTTONS ------- */
+.download-button {
+  margin: 5% 2% 5% 0;
+}
+
+.infinitypic {
+  width: 25%;
+  transform: rotate(10deg);
+  padding-left: 20px;
+}
+
+/* ----MEDIA QUERY SECTION -- TITLE SECTION----*/
+@media (max-width:1028px) {
+#title {
+  text-align: center;
+  height:100%;
+}
+
+.infinitypic {
+    transform: rotate(0deg);
+    padding-left: 20px;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  background: rgba(152,251,152,.3);
+}
+
+.download-button {
+  height: 20%;
+  font-size: 15px;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+}
+/* ----END OF MEDIA QUERY SECTION -- TITLE SECTION----*/
+
+
+
+
+
+/* FEATURES SECTION */
+#features {
+  padding: 7% 15%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.feat {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #008080;
+}
+
+/* ----MEDIA QUERY SECTION -- FEATURES SECTION----*/
+@media (max-width:1028px) {
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 12px;
+}
+
+}
+/* ----END OF MEDIA QUERY SECTION -- FEATURES SECTION----*/
+
+
+
+
+
+/* ------- TESTIMONIAL SECTION ----------*/
+#testimonials {
+  text-align: center;
+  background: linear-gradient(rgba(152,251,152,.7), rgba(0,255,127,.7)), url("https://www.pngmagic.com/product_images/light-sage-green-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.carousel-item {
+  padding: 10% 10%;
+}
+
+.quote {
+  color: green;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* ----MEDIA QUERY SECTION -- TESTIMONIAL SECTION----*/
+@media (max-width:1028px) {
+em {
+  font-size: 11px;
+}
+}
+/* ----END OF MEDIA QUERY SECTION -- TESTIMONIAL SECTION----*/
+
+
+
+/* -----PRESS SECTION----*/
+
+.logo {
+  margin: 50px 20px 10px;
+}
+
+/* ----MEDIA QUERY SECTION -- PRESS SECTION----*/
+@media (max-width:1028px) {
+  .logo {
+    height: 80px;
+    width: 150px;
+  }
+}
+/* ----END OF MEDIA QUERY SECTION -- PRESS SECTION----*/
+
+
+
+/* PRICING SECTION */
+#pricing {
+  padding-top:10%;
+  padding-bottom:7%;
+  text-align:center;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cards {
+  width: 20rem;
+  margin: 25px 25px;
+}
+
+.card-body {
+  box-shadow: 0 0 1px 1px;
+}
+
+.card-img-top {
+  box-shadow: 0 0 1px 1px;
+}
+
+.button {
+  color: green;
+}
+
+
+/* --------------CALL TO ACTION SECTION---------- */
+#cta {
+  text-align: center;
+  padding: 8% 10%;
+  background: linear-gradient(rgba(152,251,152,.7), rgba(0,255,127,.7)), url("https://www.pngmagic.com/product_images/light-sage-green-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  height: 100%;
+}
+
+@media (max-width:1028px) {
+h2 {
+  font-size: 40px;
+}
+
+}
+
+
+
+/* -----------FOOTER SECTION--------- */
+#footer {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.link {
+  padding-bottom: 3%;
+  margin: 5px;
+}
+
+/* END OF FOOTER SECTION */
+
+
+#team {
+  text-align: center;
+}
+
+.our-team {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.b-border {
+  width: 80px;
+  height: 4px;
+  background-color: green;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.member-img {
+  border-radius: 50%;
+  box-shadow:  0px 2px 16px #aaaaaa,
+               -2px -16px #ffffff;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.member-img.m1 {
+  background-image: url(https://asianwiki.com/images/d/d1/Ji_Chang-Wook-1987-p01.jpeg);
+}
+
+.member-img.m2 {
+  background-image: url(https://0.soompi.io/wp-content/uploads/2021/05/08212523/song-joong-ki-4.jpeg);
+}
+
+.member-img.m3 {
+  background-image: url(https://pbs.twimg.com/media/FN7aOJKVEAA8H9v.jpg);
+}
+
+.social-icons {
+  transition: 0.3s all;
+  font-size: 20px;
+  color: #32CD32;
+  padding-bottom: 50px;
+}
+
+.social-icons:hover {
+  color:green;
+}
+
+.name {
+  font-weight: 900;
+  color: green;
+}
+
+.tag {
+  font-weight: 900;
+  font-size: 50px;
+}
